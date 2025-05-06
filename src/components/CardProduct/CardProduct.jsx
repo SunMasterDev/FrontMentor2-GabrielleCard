@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 
 const CardProduct = () => {
   return (
-    <Card className="flex flex-col md:flex-row max-w-md md:max-w-3xl w-full overflow-hidden rounded-xl shadow-sm p-0 border-0">
+    <Card className="flex flex-col md:flex-row max-w-min md:max-w-xl w-full overflow-hidden rounded-xl shadow-sm p-0 border-0">
       {/* Img left */}
       <div className="md:w-1/2 w-full">
         <img
