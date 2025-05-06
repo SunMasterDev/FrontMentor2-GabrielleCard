@@ -21,7 +21,7 @@ const CardProduct = () => {
       </div>
       {/* text right */}
       <CardContent className="flex flex-col justify-center gap-5 p-6 md:w-1/2">
-        <span className="uppercase tracking-[0.25em] text-xs text-slate-500 font-medium">
+        <span className="uppercase tracking-[0.5rem] text-xs text-slate-500 font-medium">
           Perfume
         </span>
         <h2 className="text-3xl font-bold text-gray-900 font-serif leading-8 md:text-4xl">
