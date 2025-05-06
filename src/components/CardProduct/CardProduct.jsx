@@ -5,7 +5,7 @@ import { Button } from "../ui/button";
 
 const CardProduct = () => {
   return (
-    <Card className="flex flex-col md:flex-row max-w-min md:max-w-xl w-full overflow-hidden rounded-xl shadow-sm p-0 border-0">
+    <Card className="flex flex-col md:flex-row max-w-md md:max-w-xl w-full overflow-hidden rounded-xl shadow-sm p-0 border-0">
       {/* Img left */}
       <div className="md:w-1/2 w-full">
         <img
@@ -47,7 +47,7 @@ const CardProduct = () => {
             </span>
           </div>
         </div>
-        <Button className="bg-[#3D8168] hover:bg-green-900 w-full text-base font-semibold gap-2 p-8 mt-4">
+        <Button className="bg-[#3D8168] hover:bg-green-900 w-full text-base font-semibold gap-2 p-8">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
